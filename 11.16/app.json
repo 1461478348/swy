@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/types/types",
+    "pages/detail/detail",
+    "pages/wifi/wifi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "今日头条",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "selectedColor": "0D3BEC",
+      "list": [
+     {
+    "pagePath": "pages/types/types",
+    "text": "首页",
+    "iconPath": "/pages/imgs/home.png",
+    "selectedIconPath": "/pages/imgs/home-r.png"
+    },
+    {
+    "pagePath": "pages/wifi/wifi",
+    "text": "免费wifi",
+    "iconPath": "/pages/imgs/wifi.png",
+    "selectedIconPath": "/pages/imgs/wifi-r.png"
+     }
+    ]
+  }
+}
+

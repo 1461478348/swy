@@ -1,0 +1,117 @@
+<view class="nav-bar">
+<scroll-view class="nav-items" scroll-x="true">
+ <view class="items">
+  <view><view class="{{currentType=='top'?'selected':'normal'}}"bindtap='selectType' id="top">头条</view></view>
+  <view><view class="{{currentType=='shehui'?'selected':'normal'}}"bindtap='selectType' id="shehui">社会</view></view>
+  <view><view class="{{currentType=='guonei'?'selected':'normal'}}"bindtap='selectType' id="guonei">国内</view></view>                <view><view class="{{currentType=='guoji'?'selected':'normal'}}"bindtap='selectType' id="guoji">国际</view></view>
+  <view><view class="{{currentType=='yule'?'selected':'normal'}}"bindtap='selectType' id="yule">娱乐</view></view>
+  <view><view class="{{currentType=='tiyu'?'selected':'normal'}}"bindtap='selectType' id="tiyu">体育</view></view>
+  <view><view class="{{currentType=='junshi'?'selected':'normal'}}"bindtap='selectType' id="junshi">军事</view></view>
+  <view><view class="{{currentType=='keji'?'selected':'normal'}}"bindtap='selectType' id="keji">科技</view></view>
+  <view><view class="{{currentType=='caijing'?'selected':'normal'}}"bindtap='selectType' id="caijing">财经</view></view>
+  <view><view class="{{currentType=='shishang'?'selected':'normal'}}"bindtap='selectType' id="shishang">时尚</view></view>
+ </view>
+</scroll-view>
+<view class="plus">+</view>
+</view>
+
+
+<scroll-view class="news-scroll" scroll-y="true">
+ <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+ <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+  <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+  <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+  <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+  <view class="news-list">
+     <view class='news-item'>
+       <view><text>盘点五部高甜的网剧，《双世宠妃》仅垫底！</text></view>
+       <view class='news-photos'>
+          <view><image src="/img/1.png"/></view>
+          <view><image src="/img/2.png"/></view>
+          <view><image src="/img/3.png"/></view>
+       </view>
+       <view class='news-info'>
+         <view class='author'>腾讯新闻</view>
+         <view class='data'>2018.8.8</view>
+       </view>
+       <view class='hr'></view>
+     </view>
+ </view>
+
+
+</scroll-view>
